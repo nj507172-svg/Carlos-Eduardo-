@@ -1,0 +1,62 @@
+//float nota;
+  //char *resultado;
+   //printf("Digite a nota: ");
+   //scanf("%f", &nota);
+
+ //resultado = nota >= 6 ? (nota == 10 ? "Aprovado com nota maxima" : "Aprovado") : "Reprovado";
+ 
+// printf("&s\n", resultado);
+
+//	return 0;
+
+
+
+//#include <stdio.h>
+//int main (){ 
+
+//int idade;
+
+//printf("Qual a sua idade ? ");
+//scanf ("&d", idade);
+
+
+//if (idade >= 18) { 
+//printf("Maior de idade");}
+//else {
+	//printf("Negado, usuario Menor de Idade!\n ");
+//}
+//	return 0;
+//}
+//#include <stdio.h>
+//int main (){
+	//float nota;
+	
+//	printf("Digite sua nota: ");
+	//scanf("%f", nota);
+	
+	//if ("nota >= 6"){
+	//	printf("Aluno Aprovado");
+	//}	else{
+	//		printf("Reprovado");
+		//}	
+	//}
+	//return 0;
+//}
+
+#include <stdio.h>
+int main () {
+	
+	float nota1, nota2, nota3,notaFinal;
+	
+	
+	
+printf("Digite A NOTA DA AV: ");
+scanf("%f", &nota1);
+
+printf("Digite a nota do simulado 2: ");
+scanf("%f", &nota2);
+
+printf("Digite a nota do simulado 2: ");
+scanf("%f", &nota3);
+	
+notaFinal = nota1 + nota2 + nota3
